@@ -13,6 +13,7 @@
 # USAGE MAC:
 # open -a XQuartz
 # socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+#   docker run -d \
 #     --net host \
 #     -v ~/sqlite:/root/sqlite \
 ## Change DISPLAY to equal VirtualBox IP ADDR for vboxnet0
