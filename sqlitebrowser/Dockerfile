@@ -11,12 +11,12 @@
 #     portiad/sqlitebrowser
 #
 # USAGE MAC:
-# open -a XQuartz
-# socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+#   open -a XQuartz
+#   socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
 #   docker run -d \
 #     --net host \
 #     -v ~/sqlite:/root/sqlite \
-## Change DISPLAY to equal VirtualBox IP for vboxnet0
+### Change DISPLAY to equal VirtualBox IP for vboxnet0
 #     -e DISPLAY=192.168.##.#:# \
 #     --name sqlitebrowser \
 #     portiad/sqlitebrowser
