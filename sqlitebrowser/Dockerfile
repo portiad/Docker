@@ -16,7 +16,7 @@
 #   docker run -d \
 #     --net host \
 #     -v ~/sqlite:/root/sqlite \
-### Change DISPLAY to equal VirtualBox IP for vboxnet0
+### Change DISPLAY to equal VirtualBox IP for vboxnet0 ###
 #     -e DISPLAY=192.168.##.#:# \
 #     --name sqlitebrowser \
 #     portiad/sqlitebrowser
